@@ -11,14 +11,42 @@ body{
   }
 
 
+/* HEADER */
+
+.customNav {
+  position: fixed;
+  background-color: var(--main-dark) !important;
+  font-size: 15px;
+  color: white !important;
+  width: 100vw;
+}
+
+.customNav a {
+  color: white !important;
+}
+
+.navbar-brand {
+  margin-right: 2.5rem;
+}
+
+.navbar-brand span {
+  font-family: "Lobster", sans-serif;
+  font-size: 25px;
+}
+
+.nav-link {
+  padding-bottom: 0px;
+}
+
+
 /* HOME STYLE*/
 .jumbotron {
   background-image: url(../public/purple-keyboard.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
-  /* height: calc(100vh - 20px); */
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
