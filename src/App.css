@@ -34,10 +34,6 @@ body{
   font-size: 25px;
 }
 
-.nav-link {
-  padding-bottom: 0px;
-}
-
 
 /* HOME STYLE*/
 .jumbotron {
@@ -70,3 +66,34 @@ body{
   font-size: 23px;
 }
 
+/* CONTACT */
+
+.contact-form {
+  background-color: var(--main-dark);
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  align-items: center;
+}
+
+.form-group {
+  width: 60vw;
+}
+
+.contact-form input {
+  height: 3rem;
+}
+
+.contact-form textarea {
+  height: 10rem;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  border: #007bff;
+}
+
+.contact-form button:hover {
+  background-color: #cb64ff;
+  border: #cb64ff;
+}
