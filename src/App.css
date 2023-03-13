@@ -17,12 +17,7 @@ body{
   position: fixed;
   background-color: var(--main-dark) !important;
   font-size: 15px;
-  color: white !important;
   width: 100vw;
-}
-
-.customNav a {
-  color: white !important;
 }
 
 .navbar-brand {
@@ -96,4 +91,47 @@ body{
 .contact-form button:hover {
   background-color: #cb64ff;
   border: #cb64ff;
+}
+
+/* PROJECT CARDS */
+
+.projects-section {
+  padding: 125px 100px 0px 100px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--main-dark);
+  font-weight:bold;
+}
+
+
+.cardContainer {
+  margin-bottom: 20px;  
+}
+
+.project-img {
+  /* height: 240px; */
+  padding: 10px;
+}
+
+.project-body {
+  font-size: 14px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* height: 240px; */
+}
+
+.btn {
+  background-color: var(--main-dark);
+  border-color: var(--main-dark);
+}
+
+.project-txt {
+  /* height: 155px; */
+}
+
+.btn:hover {
+  background-color: var(--main-light);
 }

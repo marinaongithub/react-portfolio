@@ -31,9 +31,16 @@ function Header() {
                   Contact
                 </NavLink>
               </li>
-                {/* <a className="nav-item nav-link" href={Home}></a> */}
-                <a className="nav-item nav-link" href="#Projects">Projects</a>
-                {/* <a className="nav-item nav-link" href="#contact">Contact</a> */}
+              <li className="nav-item">
+                <NavLink
+                  to="projects"
+                  className={({ isActive }) =>
+                    isActive ? 'nav-item nav-link active' : 'nav-item nav-link'
+                  }
+                >
+                  Projects
+                </NavLink>
+              </li>
             </div>
             </div>
         </nav>
