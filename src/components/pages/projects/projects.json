@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "OdeToCode",
+        "image": "images/OdeToCode.png",
+        "description": "OdeToCode is an homage to poetry and technology. The users can discover new poems, search for their favourite ones and write reflections about them in a dedicated journal.",
+        "live": "https://marinabtc.github.io/OdeToCode/",
+        "code": "https://marinabtc.github.io/OdeToCode/"
+    },
+    {
+        "id": "2",
+        "name": "Weather Dashboard",
+        "image": "images/weather-dashboard.png",
+        "description": "The app allows users to consult today's weather as well as a 5-day forecast for the cities of their choice. It retrieves data using the Open Weather API.",
+        "live": "https://marinaongithub.github.io/weather-dashboard/",
+        "code": "https://github.com/marinaongithub/weather-dashboard"
+    },
+    {
+        "id": "3",
+        "name": "Coding Quiz",
+        "image": "images/code-quiz.png",
+        "description": "A multiple-choice coding quiz that can keep track of scores and quiz-takers' initials. It enables users to train on coding quiz challenges to prepare for exams or interviews.",
+        "live": "https://marinaongithub.github.io/code-quiz/",
+        "code": "https://github.com/marinaongithub/code-quiz"
+    },
+    {
+        "id": "4",
+        "name": "Workday Planner",
+        "image": "images/workday-planner.png",
+        "description": "A simple calendar app allowing users to save events for each hour of their working day.",
+        "live": "https://marinaongithub.github.io/workday-planner/",
+        "code": "https://github.com/marinaongithub/password-generator"
+    },
+    {
+        "id": "5",
+        "name": "Password Generator",
+        "image": "images/password-generator.png",
+        "description": "Helps users to create strong passwords for their online accounts. Users can customize the length and chose to include special characters, numbers, uppercase and lowercase characters.",
+        "live": "https://marinaongithub.github.io/password-generator/",
+        "code": "https://github.com/marinaongithub/password-generator"
+    },
+    {
+        "id": "6",
+        "name": "Team Profile Generator ",
+        "image": "",
+        "description": "",
+        "live": "",
+        "code": "https://github.com/marinaongithub/team-profile-generator"
+    }
+]

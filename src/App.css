@@ -18,6 +18,7 @@ body{
   background-color: var(--main-dark) !important;
   font-size: 15px;
   width: 100vw;
+  z-index: 10;
 }
 
 .navbar-brand {
@@ -84,8 +85,11 @@ body{
 }
 
 .contact-form button {
-  background-color: #007bff;
-  border: #007bff;
+  background-color: var(--main-light);
+  border-color: var(--main-light);
+
+  /* background-color: #007bff;
+  border: #007bff; */
 }
 
 .contact-form button:hover {
@@ -96,7 +100,7 @@ body{
 /* PROJECT CARDS */
 
 .projects-section {
-  padding: 125px 100px 0px 100px;
+  padding: 100px 40px 0px 40px;
 }
 
 h2 {
@@ -106,32 +110,65 @@ h2 {
   font-weight:bold;
 }
 
-
 .cardContainer {
-  margin-bottom: 20px;  
+  margin-bottom: 30px; 
+}
+
+.card {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.card:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 16px 0px; 
 }
 
 .project-img {
-  /* height: 240px; */
+  height: 200px;
   padding: 10px;
 }
 
 .project-body {
-  font-size: 14px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* height: 240px; */
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  min-height: 180px;
+}
+
+.project-txt {
+  min-height: 118px;
+  flex-grow: 1;
+
+}
+
+.project-buttons {
+  flex-grow: 1;
 }
 
 .btn {
+  margin: 5px;
+  font-size: 14px;
+}
+
+#live {
   background-color: var(--main-dark);
   border-color: var(--main-dark);
 }
 
-.project-txt {
-  /* height: 155px; */
+#live:hover {
+  background-color: var(--main-light);
+  border-color: var(--main-light);
 }
 
-.btn:hover {
-  background-color: var(--main-light);
+#code {
+  background-color: white;
+  border-color: var(--main-dark);
+  color: var(--main-dark) !important;
 }
+
+#code:hover {
+  background-color: var(--main-light);
+  border-color: var(--main-light);
+}
+
+
+
