@@ -7,7 +7,6 @@ class ProjectsPage extends Component {
 
 
   render () {
-        {/* <div class="row"> */}
     return (
       <div className="projects-section d-flex row justify-content-center">
         {projects
@@ -38,13 +37,6 @@ class ProjectsPage extends Component {
             )
           )
         } 
-        
-        {/* </div> */}
-        {/* <div class="row"> */}
-          {/* <Project/>
-          <Project/>
-          <Project/> */}
-        {/* </div> */}
     </div>
     )
   }
