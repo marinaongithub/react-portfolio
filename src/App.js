@@ -8,7 +8,7 @@ import ProjectPage from './components/pages/projects/ProjectsPage';
 function App() {
   return (
     <div>
-      <Router basename="react-portfolio">
+      <Router basename="/react-portfolio">
         <Header/>
         <Routes>
           <Route path="/" element={<Home/>}/>
