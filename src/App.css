@@ -67,9 +67,10 @@ body{
 .contact-form {
   background-color: var(--main-dark);
   flex-direction: column;
-  height: 100vh;
+  height: 88vh;
   color: white;
   align-items: center;
+  /* flex-grow: 1; */
 }
 
 .form-group {
@@ -172,5 +173,40 @@ h2 {
   border-color: var(--main-light);
 }
 
+
+/* Footer section */
+footer {
+  background-color: var(--main-dark);
+  height: 12vh;
+}
+
+#contact {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  margin: 20px;
+}
+
+i {
+  color: var(--main-light);
+}
+
+i:hover {
+  font-size: 30px;
+} 
+
+footer p {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  color: var(--main-light);
+}
 
 
