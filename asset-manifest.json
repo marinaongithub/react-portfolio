@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.bc1f5c18.css",
+    "main.js": "/react-portfolio/static/js/main.0c4a3179.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/purple-keyboard.jpg": "/react-portfolio/static/media/purple-keyboard.f48626311890e5c6e862.jpg",
+    "static/media/profile.jpg": "/react-portfolio/static/media/profile.d7aa1120d380d77517d1.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.bc1f5c18.css.map": "/react-portfolio/static/css/main.bc1f5c18.css.map",
+    "main.0c4a3179.js.map": "/react-portfolio/static/js/main.0c4a3179.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc1f5c18.css",
+    "static/js/main.0c4a3179.js"
+  ]
+}
