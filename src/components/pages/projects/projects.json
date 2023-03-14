@@ -41,10 +41,10 @@
     },
     {
         "id": "6",
-        "name": "Team Profile Generator ",
-        "image": "",
-        "description": "",
-        "live": "",
-        "code": "https://github.com/marinaongithub/team-profile-generator"
+        "name": "Bootstap Portfolio",
+        "image": "images/bootstrap.png",
+        "description": "A responsive portfolio build using Boostrap CSS to showcase my most recent projects to peers and potential employers.",
+        "live": "https://marinaongithub.github.io/Bootstrap-Portfolio/",
+        "code": "https://github.com/marinaongithub/Bootstrap-Portfolio"
     }
 ]
