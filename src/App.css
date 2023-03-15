@@ -67,10 +67,10 @@ body{
 .contact-form {
   background-color: var(--main-dark);
   flex-direction: column;
-  height: 88vh;
+  height: 100vh;
   color: white;
   align-items: center;
-  /* flex-grow: 1; */
+  justify-content: flex-end;
 }
 
 .form-group {
@@ -78,11 +78,11 @@ body{
 }
 
 .contact-form input {
-  height: 3rem;
+  max-height: 3rem;
 }
 
 .contact-form textarea {
-  height: 10rem;
+  max-height: 10rem;
 }
 
 .contact-form button {
@@ -175,9 +175,8 @@ h2 {
 
 
 /* Footer section */
-footer {
-  background-color: var(--main-dark);
-  height: 12vh;
+.footer {
+  padding-top: 70px;
 }
 
 #contact {

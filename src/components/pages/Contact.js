@@ -1,8 +1,9 @@
 import React from 'react';
+import Footer from '../Footer';
 
 function Contact() {
   return (
-    <div className='contact-form d-flex justify-content-center'>
+    <div className='contact-form d-flex'>
         <form>
         <div className="form-group">
         <label for="inputName">Your name</label>
@@ -19,6 +20,7 @@ function Contact() {
         
         <button type="submit" className="btn btn-primary">Submit</button>
     </form>
+    <Footer/>
   </div>
   )
 }

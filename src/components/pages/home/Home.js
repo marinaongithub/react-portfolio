@@ -1,7 +1,6 @@
 import React from 'react'
 import avatar from './profile.jpg'
 
-
 function Home() {
   return (
     <div className="jumbotron" id="home">
