@@ -17,7 +17,7 @@ N/A
 
 ## Usage
 
-The live application is available ![here](https://marinaongithub.github.io/react-portfolio)
+The live application is available [here](https://marinaongithub.github.io/react-portfolio).
 
 Click on Home, Contact or Projects to navigate to the corresponding sections.
 
